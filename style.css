@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(36, 184, 78);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.oliver {
+    width: 220px;
+    height: 250px;
+}
+
+.header__title {
+    font-size: 50px;
+    color: #333333;
+}
+
+.header__subtitle {
+    color: #FFFACD;
+}
+
+.skills {
+    color: #FFFACD;
+}
+
+.skills ol {
+    list-style: none;
+}
+
+
+main {
+    border: 2px solid #333333;
+    text-align: center;
+}
+
+.article {
+    color: #FFFACD;
+}
+
+.gallery {
+    color: #333333;
+}
+
+.separator {
+    width: 50%;
+    height: 3px;
+    background-color:#FFFACD ;
+}
+
+.video {
+    width: 800px;
+    height: 490px;
+    border: none;
+}
+
+@media (max-width: 900px) {
+  .video {
+    width: 100%;
+    height: calc(100vw * 0.6125);
+  }
+}
+
+.hobbies ol {
+    list-style: none;
+}
+
+.hobbies {
+    color: #FFFACD;
+}
+
+.ed__table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #333333;
+}
+
+.ed__table th,
+.ed__table td {
+    border: 1px solid #333333;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 32px;
+    color: #FFFACD;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+    color: #333333;
+}
+
+@media (max-width: 650px) {
+  .form {
+    width: 95%;
+    max-width: 600px;
+  }
+}
+.form__control {
+    width: 100%;
+    }
+
+.control--text {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.form__submit {
+    display: block;
+    margin: 0 auto;
+    color: #333333;
+    border-radius: 15px;
+    background-color: #FFFACD;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFACD;
+}
