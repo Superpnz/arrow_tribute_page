@@ -13,12 +13,15 @@ body {
 }
 
 .header__title {
-    font-size: 50px;
+    font-size: 55px;
     color: #333333;
+    text-shadow: 2px 5px 5px #3333336a, 0 -4px 10px #fffacdc6;
+    letter-spacing: 2px;
 }
 
 .header__subtitle {
     color: #FFFACD;
+    text-shadow: 2px 5px 5px #3333336a;
 }
 
 .skills {
@@ -124,4 +127,5 @@ footer {
 .link {
     text-decoration: none;
     color: #FFFACD;
+    text-shadow: 2px 5px 5px #3333336a;
 }
