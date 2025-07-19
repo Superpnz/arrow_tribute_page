@@ -1,13 +1,23 @@
 :root {
-    --color-one:#333333;
+    --color-one: #333333;
     --color-two: #FFFACD;
-    --color-shadow:#3333336a;
-    --color-shadow-additional:#fffacdc6;
+    --color-shadow: #3333336a;
+    --color-shadow-additional: #fffacdc6;
 }
 
 body {
     background-color: rgb(36, 184, 78);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    border: 2px solid var(--color-one);
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
 }
 
 .header {
@@ -39,12 +49,6 @@ body {
     list-style: none;
 }
 
-
-main {
-    border: 2px solid var(--color-one);
-    text-align: center;
-}
-
 .article {
     color: var(--color-two);
 }
@@ -56,20 +60,13 @@ main {
 .separator {
     width: 50%;
     height: 3px;
-    background-color:var(--color-two) ;
+    background-color: var(--color-two);
 }
 
 .video {
     width: 800px;
     height: 490px;
     border: none;
-}
-
-@media (max-width: 900px) {
-  .video {
-    width: 100%;
-    height: calc(100vw * 0.6125);
-  }
 }
 
 .hobbies ol {
@@ -82,14 +79,19 @@ main {
 
 .ed__table {
     border-collapse: collapse;
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
     color: var(--color-one);
 }
 
 .ed__table th,
 .ed__table td {
-    border: 1px solid var(--color-one);
-    padding: 10px;
+    border: 2px solid var(--color-one);
+    padding: 5px;
+}
+
+.table__headers {
+    color: var(--color-two)
 }
 
 .quote {
@@ -103,15 +105,9 @@ main {
     color: var(--color-one);
 }
 
-@media (max-width: 650px) {
-  .form {
-    width: 95%;
-    max-width: 600px;
-  }
-}
 .form__control {
     width: 100%;
-    }
+}
 
 .control--text {
     width: 50%;
@@ -127,13 +123,31 @@ main {
     box-shadow: 2px 2px 5px 2px var(--color-shadow);
 }
 
-footer {
-    height: 50px;
-    text-align: center;
-}
-
 .link {
     text-decoration: none;
     color: var(--color-two);
     text-shadow: 2px 5px 5px var(--color-shadow);
+}
+
+@media (max-width: 900px) {
+    .video {
+        width: 95%;
+        height: calc(100vw * 0.6125);
+    }
+
+    .form {
+        width: 95%;
+        max-width: 600px;
+    }
+
+    .ed__table {
+        width: 95%;
+    }
+
+    .ed__table th,
+    .ed__table td {
+        word-break: break-word;
+        padding: 5px;
+        font-size: 14px;
+    }
 }
