@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(36, 184, 78);
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
