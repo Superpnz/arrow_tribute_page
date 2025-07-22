@@ -1,12 +1,13 @@
 :root {
     --color-one: #333333;
-    --color-two: #FFFACD;
+    --color-two: #f6ed9c;
     --color-shadow: #3333336a;
-    --color-shadow-additional: #fffacdc6;
+    --color-shadow-additional: #f6ed9cd6;
+    --background-color: linear-gradient(90deg, #9ebd13 0%, #008552 100%); 
 }
 
 body {
-    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    background: var(--background-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -51,6 +52,7 @@ footer {
 
 .article {
     color: var(--color-two);
+    padding: 8px;
 }
 
 .gallery {
