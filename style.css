@@ -1,11 +1,11 @@
 @font-face {
     font-family: TradeWinds-Regular;
-    src: url(font/TradeWinds-Regular.ttf) format(truetype);
+    src: url(fonts/TradeWinds-Regular.ttf) format(truetype);
 }
 
 @font-face {
     font-family: CaesarDressing-Regular;
-    src: url(font/CaesarDressing-Regular.ttf) format(truetype);
+    src: url(fonts/CaesarDressing-Regular.ttf) format(truetype);
 }
 
 :root {
