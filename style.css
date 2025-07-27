@@ -1,3 +1,13 @@
+@font-face {
+    font-family: TradeWinds-Regular;
+    src: url(font/TradeWinds-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: CaesarDressing-Regular;
+    src: url(font/CaesarDressing-Regular.ttf) format(truetype);
+}
+
 :root {
     --color-one: #333333;
     --color-two: #f6ed9c;
@@ -21,8 +31,13 @@ footer {
     text-align: center;
 }
 
+h1, h2, img {
+  margin: 0;
+  padding: 0;
+}
 .header {
     text-align: center;
+    padding: 15px;
 }
 
 .oliver {
@@ -31,10 +46,11 @@ footer {
 }
 
 .header__title {
-    font-size: 55px;
+    font-family: TradeWinds-Regular;
+    font-size: 65px;
     color: var(--color-one);
     text-shadow: 2px 5px 5px var(--color-shadow), 0 -4px 10px var(--color-shadow-additional);
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .header__subtitle {
@@ -97,6 +113,7 @@ footer {
 }
 
 .quote {
+    font-family: CaesarDressing-Regular;
     font-size: 32px;
     color: var(--color-two);
 }
