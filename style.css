@@ -24,6 +24,7 @@ body {
 main {
     border: 2px solid var(--color-one);
     text-align: center;
+    margin: 7px;
 }
 
 footer {
@@ -73,6 +74,16 @@ h1, h2, img {
 
 .gallery {
     color: var(--color-one);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .separator {
