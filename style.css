@@ -166,8 +166,7 @@ h1, h2, img {
     }
 
     .form {
-        width: 95%;
-        max-width: 600px;
+        width: min(95%, 600px);
     }
 
     .ed__table {
