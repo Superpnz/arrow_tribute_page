@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
     <link rel="manifest" href="favicon/site.webmanifest" />
+    <script src="script.js" defer></script>
     <title>Arrow</title>
 </head>
 <body>
@@ -61,10 +62,11 @@ navigation bar">
         <section class="gallery" id="gallery" aria-label="gallery">
             <!-- Arrow images / Изображения стрелы -->
             <h3>Gallery Arrow</h3>
-            <img src="Image/Arrow_(cast).webp" alt="Arrow team" height="250" width="200">
-            <img src="Image/Оливер_с_Сарой.webp" alt="Arrow and Black Canary" height="250" width="260">
-            <img src="Image/Оливер_с_Слейдом.webp" alt="Arrow and Deathstroke" height="250" width="260">
-            <img src="Image/Оливер_с_Флешем.webp" alt="Arrow and Flash" height="250" width="260">
+                <div class="slider-container">
+                    <div class="slider" data-slider></div>
+                    <button class="prev" data-btn-prev>❮</button>
+                    <button class="next" data-btn-next>❯</button>
+                </div>
         </section>
 
         <hr class="separator">
