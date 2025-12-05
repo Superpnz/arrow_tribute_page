@@ -1,10 +1,10 @@
 const images = [
+    "Image/лорел_оливер_рой.webp",
     "Image/Оливер_с_Сарой.webp",
     "Image/Оливер_с_Слейдом.webp",
     "Image/Оливер_с_Флешем.webp",
     "Image/Arrow_(cast).webp",
     "Image/новая_команда.webp",
-    "Image/лорел_оливер_рой.webp"
 ];
 
 const slider = document.querySelector("[data-slider]");
